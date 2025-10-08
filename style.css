@@ -207,8 +207,9 @@ body {
 }
 
 .info {
-  background-color: var(--bg);
-  color: white;
+  background-image: url(img/tipis2.png);
+  background-size: contain;
+  color: rgb(60, 50, 50);
   padding-top: 10rem;
   padding-bottom: 8rem;
 }
@@ -219,13 +220,12 @@ body {
 
 .info .description {
   font-size: 1rem;
-  font-weight: 300;
 }
 
 .info .card {
-  background-color: rgba(255, 255, 255, 0.2) !important;
-  color: white !important;
-  border: 1px solid #999;
+  background-color: rgba(97, 57, 57, 0.793) !important;
+  color: rgb(237, 218, 218) !important;
+  border: 1px solid #d7d3d3;
 }
 
 .info .card-header {
@@ -255,6 +255,11 @@ body {
 .gifts {
   padding-top: 10rem;
   padding-bottom: 8rem;
+}
+
+.story {
+  background-image: url(img/tipis2.png);
+  background-size: contain;
 }
 
 .story span,
@@ -374,7 +379,8 @@ body {
 }
 
 .gallery {
-  background-color: #f5f5f5;
+  background-image: url(img/tipis2.png);
+  background-size: contain;
 }
 
 .rsvp {
